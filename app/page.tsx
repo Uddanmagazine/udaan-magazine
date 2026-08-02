@@ -204,7 +204,7 @@ export default function UdaanWebsite() {
             />
 
             <textarea
-              rows="6"
+              rows={6}
               name="articleContent"
               placeholder="Write your article here..."
               className="p-4 rounded-2xl bg-white/10 border border-white/20 focus:outline-none focus:ring-2 focus:ring-yellow-300 md:col-span-2"
