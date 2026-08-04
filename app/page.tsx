@@ -1,7 +1,9 @@
 'use client'
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion";
+import { useState } from "react";
 
-export default function UdaanWebsite() {
+const [loading, setLoading] = useState(false);
+const [message, setMessage] = useState("");
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-950 via-sky-900 to-orange-100 text-white font-sans">
       {/* Navigation */}
@@ -171,7 +173,7 @@ export default function UdaanWebsite() {
           </p>
 
           <form
-  action="https://script.google.com/macros/library/d/1gRpjHHAUXyt4HTtgynD66lKhUjvdz2adUXg2a6SlWO1mhb40gnSz0GNK/2"
+  action="https://script.google.com/macros/s/AKfycbzv9cMeVQ8oB-yzodBel7X6JJsd6NknYcEGznflvx4kmadfQtBYJl11-uhbvpV64UzN/exec"
   method="POST"
   className="grid md:grid-cols-2 gap-6"
 >
