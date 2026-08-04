@@ -21,6 +21,11 @@ const [message, setMessage] = useState("");
             <li><a href="#features" className="hover:text-yellow-300 transition">Features</a></li>
             <li><a href="#magazine" className="hover:text-yellow-300 transition">Magazine</a></li>
             <li><a href="#gallery" className="hover:text-yellow-300 transition">Gallery</a></li>
+            <li>
+  <a href="/career" className="hover:text-yellow-300 transition">
+    Career
+  </a>
+</li>
             <li><a href="#contact" className="hover:text-yellow-300 transition">Contact</a></li>
           </ul>
 
