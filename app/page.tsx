@@ -1,9 +1,12 @@
-'use client'
+'use client';
+
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-const [loading, setLoading] = useState(false);
-const [message, setMessage] = useState("");
+export default function UdaanWebsite() {
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] = useState("");
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-950 via-sky-900 to-orange-100 text-white font-sans">
       {/* Navigation */}
